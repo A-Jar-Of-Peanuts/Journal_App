@@ -17,6 +17,7 @@ if (window.localStorage.getItem("TotalEntries") == null) {
         newDiv.setAttribute("id", newName);
         var param = "goToJournal(" + i + ")";
         newDiv.setAttribute("onmousedown", param);
+        newDiv.setAttribute("class", "entry");
         newText.setAttribute("id", "body"+i);
 
         newDiv.appendChild(newText);
@@ -38,6 +39,7 @@ document.getElementById("addEntry").onclick = function() {
     newDiv.setAttribute("id", newName);
     var param = "goToJournal(" + entries + ")";
     newDiv.setAttribute("onmousedown", param);
+    newDiv.setAttribute("class", "entry");
     newText.setAttribute("id", "body"+entries);
 
     newDiv.appendChild(newText);

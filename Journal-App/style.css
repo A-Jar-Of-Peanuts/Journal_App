@@ -17,3 +17,11 @@ h1 {
 .ae {
     text-align: center;
 }
+
+.entry {
+    margin: 0 auto;
+    width: 300px;
+    height: 100px; 
+    border:1px solid black;
+    text-align: center;
+}
